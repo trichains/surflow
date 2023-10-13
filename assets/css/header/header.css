@@ -1,0 +1,54 @@
+.header-bg {
+  background-color: #001908;
+}
+
+.top-bar-bg {
+  background-color: #1188EE;
+}
+
+.top-bar p {
+  color: white;
+  font-size: 1em;
+}
+
+.top-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: white;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 15px 0px;
+}
+
+.header-menu li {
+  position: relative;
+}
+
+.header-menu li:nth-child(4)::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  bottom: 12px;
+  background-color: #33BB66;
+  margin-top: 4px;
+  position: absolute;
+}
