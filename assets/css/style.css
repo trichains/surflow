@@ -3,4 +3,7 @@
 @import 'layout.css';
 
 /* HEADER */
-@import '/assets/css/header/header.css';
+@import 'header/header.css';
+
+/* COMPONENTES */
+@import 'estrutura/componentes.css';

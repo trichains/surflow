@@ -33,21 +33,29 @@
   color: white;
 }
 
-.header-menu a {
-  display: inline-block;
-  padding: 15px 0px;
-}
-
 .header-menu li {
-  position: relative;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
 }
 
-.header-menu li:nth-child(4)::after {
+.header-menu .link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: 15px;
+}
+
+.header-menu .matricula::after {
   content: "";
   display: block;
   height: 2px;
-  width: 100%;
-  bottom: 12px;
+  width: 115px;
   background-color: #33BB66;
   margin-top: 4px;
   position: absolute;
